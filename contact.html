@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style-repeat-others.css">
+    <link rel="icon" href="#" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;1,100&family=Poppins:wght@500&family=Water+Brush&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header-container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="img/animation studio.png" alt="amc logo" width="200px"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li> 
+            </div>
+        </div>       
+    </div>
+    <div class="vid-background-other">
+        <video autoplay loop muted plays-inline class="back-vid-other">
+            <source src="vid/Cute Mon Walk.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="title-card-other">
+        <h1>Contact Us</h1>
+        <p>We’re ready to answer any questions you have so that we can<br>
+            deliver your creative project on time and to the highest<br>
+            standard possible.</p>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact">
+            <div class="questions">
+                <h1>Questions?</h1>
+                <hr>
+                <p>We’re ready to answer any questions you have so that we can deliver<br>
+                    your creative project on time and to the highest standard possible.
+                </p>
+                <div class="inputs-contact">
+                    <input type="text" placeholder="First Name" class="input-contact">
+                    <input type="text" placeholder="Last Name" class="input-contact">
+                </div>
+                <div class="inputs-contact">
+                    <input type="email" placeholder="Email" class="input-contact">
+                    <input type="number" placeholder="Phone" class="input-contact">
+                </div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+                <button class="submit-btn">Submit</button>
+            </div>
+            <div class="studio-info">
+                <h1>Studio Information</h1>
+                <hr>
+                <div class="email">
+                    <h4>EMAIL:</h4>
+                    <p><a href="">amc.animationstudio@gmail.com</a></p>
+                </div>
+                
+                <div class="phone">
+                    <h4>PHONE:</h4>
+                    <p>+639 665 465 311</p>
+                </div>
+
+                <div class="address">
+                    <h4>ADDRESS:</h4>
+                    <p>Golden City, Brgy. Salawag, Dasmariñas City,<br>
+                    Cavite, 4114, Philippines</p>
+                </div>
+                <div class="social-media-contact">
+                    <h4>SOCIAL MEDIA:</h4> 
+
+                </div>         
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-links">
+                <div class="footer-link-1">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>     
+                    </ul>
+                </div>
+                <div class="footer-link-2">
+                    <h3>Other Service</h3>
+                    <ul>
+                        <li><a href="">AMC Photo Studio</a></li>                     
+                    </ul>
+                </div>
+                <div class="footer-link-3">
+                        <h3>Get in Touch</h3>
+                    <ul>
+                        <li>M: +63 966 546 5311</li>
+                        <li>E: amc.animationstudio@gmail.com</li>
+                        <br>
+                        <li>AMC Animation Studio<br>
+                            Golden City, Brgy. Salawag<br>
+                            Dasmariñas City, Cavite,<br>
+                            4114, Philippines</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="socmed-reserved">
+                <div class="social-media-container">
+                </div>
+                <div class="all-rights-reserved">
+                    <p>© 2022 AMC ANIMATION STUDIO. ALL RIGHT RESERVED.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <style>
+        .contact-container {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+            background-color: rgb(238, 238, 238);
+        }
+
+        .contact-container .contact {
+            display: flex;
+            
+            gap: 4rem;
+        }
+
+
+        .questions {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .questions h1 {
+            color: #2F1557;
+        }
+
+        .questions hr {
+            width: 10%;
+        }
+
+        .questions p {
+            color: rgb(97, 97, 97);
+        }
+
+        .questions .inputs-contact {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .inputs-contact .input-contact {
+            width: 50%;
+            height: 2rem;
+            border-radius: .5rem;
+            border: 1px solid #2F1557;
+            padding-left: 1rem;
+            transition: .5s;
+        }
+
+        .inputs-contact .input-contact:hover {
+            background-color: #d9cdec;
+        }
+
+
+        .questions #message {
+            max-height: 150px;
+            max-width: 470px;
+            width: 100%;
+            height: 100%;
+            align-self: center;
+            justify-self: center;
+            padding-top: 1rem;
+            padding-left: 1rem;
+            resize: none;
+            border-radius: .5rem;
+            border: 1px solid gray;
+            transition: .5s;      
+        }
+
+        .questions #message:hover {
+            background-color: #d9cdec;
+        }
+
+        .questions .submit-btn {
+            height: 50px;
+            border-radius: .5rem;
+            /* border: 1px solid #2F1557; */
+            background-color: #2F1557;
+            color: aliceblue;
+            transition: .5s;
+            border: 0 none;
+        }
+
+        .questions .submit-btn:hover {
+            background-color: rgb(255, 255, 255);
+            border: 1px solid #2F1557;
+            color: #2F1557;
+        }
+
+        .studio-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 2rem;
+        }
+
+        .studio-info h1 {
+            color: #2F1557;
+        }
+
+        .studio-info h4 {
+            color: rgb(97, 97, 97);
+            padding-bottom: .2rem;
+        }
+
+        .studio-info hr {
+            width: 10%;
+        }
+
+        .studio-info p, .studio-info a {
+            color: rgb(97, 97, 97);
+            text-decoration: none;
+        }
+
+    </style>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

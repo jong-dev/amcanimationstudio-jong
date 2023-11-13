@@ -1,0 +1,45 @@
+.vid-background-other {
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden;
+    z-index: -10;
+    
+}
+
+.back-vid-other {
+    object-fit: cover;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    z-index: -10;
+    top: 0px;
+    
+}
+
+.title-card-other {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    overflow-x: hidden;
+    position: absolute;
+    top: 20vh;
+    left: 25vw;
+}
+
+.title-card-other h1 {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.title-card-other p {
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    /* padding-bottom: 1rem; */
+}
+
+/* Services */
+ 

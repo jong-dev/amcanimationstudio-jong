@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style-repeat-others.css">
+    <link rel="icon" href="#" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;1,100&family=Poppins:wght@500&family=Water+Brush&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header-container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="img/animation studio.png" alt="amc logo" width="200px"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>      
+                </ul>
+            </div>
+        </div>       
+    </div>
+    <div class="vid-background-other">
+        <video autoplay loop muted plays-inline class="back-vid-other">
+            <source src="vid/Cute Mon Walk.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="title-card-other">
+        <h1>Projects</h1>
+        <p>It is our passion, creativity, and inspiration. We are happy<br>
+            to make an animated video for every business, startup,<br>           
+            or project to make it stronger and more recognizable.</p>
+    </div>
+
+    <div class="projects-container">
+        <div class="projects">
+            <video autoplay loop controls muted class="proj-vid">
+                <source src="vid/Cute Mon Walk.mp4" type="video/mp4">
+            </video>
+            <h1>Snickers Choco - Caramel Bar</h1>
+            <hr>
+            <p>OVERVIEW: The task is to create 3D animation of a snicker bar.<br> 
+
+                GOAL: The overall goal was to grow value sales every year and increase the reach of their message.<br>
+                
+                Develop and promote a Global Brand Idea.<br>
+                Snickers wanted the message to appeal to many audiences in different countries.
+            </p>
+            <button class="full-btn">View full project >></button>
+        </div>
+    </div>
+    
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-links">
+                <div class="footer-link-1">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>     
+                    </ul>
+                </div>
+                <div class="footer-link-2">
+                    <h3>Other Service</h3>
+                    <ul>
+                        <li><a href="">AMC Photo Studio</a></li>                     
+                    </ul>
+                </div>
+                <div class="footer-link-3">
+                        <h3>Get in Touch</h3>
+                    <ul>
+                        <li>M: +63 966 546 5311</li>
+                        <li>E: amc.animationstudio@gmail.com</li>
+                        <br>
+                        <li>AMC Animation Studio<br>
+                            Golden City, Brgy. Salawag<br>
+                            Dasmariñas City, Cavite,<br>
+                            4114, Philippines</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="socmed-reserved">
+                <div class="social-media-container">
+                </div>
+                <div class="all-rights-reserved">
+                    <p>© 2022 AMC ANIMATION STUDIO. ALL RIGHT RESERVED.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <style>
+        .projects-container {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background-color: black;
+            color: rgb(218, 218, 218);
+        }
+
+        .projects {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem 0;
+            
+        }
+
+        .projects .proj-vid {
+            width: 800px;
+            border-radius: 2rem;
+        }
+
+        .projects h1 {
+            text-align: start;
+        }
+
+        .projects hr {
+            width: 100px;
+        }
+
+        .projects p {
+            line-height: 2rem;
+        }
+
+        .projects .full-btn {
+            width: 600px;
+            height: 40px;
+            border: none;
+            border-radius: 1rem;
+            background-color: #2F1557;
+            color: #ffffff;
+            transition: all 0.5s
+        }
+
+
+        .projects .full-btn:hover{
+            cursor: pointer;
+            background-color: #ffffff;
+            color: #2F1557;
+            letter-spacing: 1px;
+            /* box-shadow: 0 0 10px 4px white; */
+            border: 1px solid #2F1557;
+            transition: all 0.5s
+        }
+
+
+    </style>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>

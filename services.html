@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style-repeat-others.css">
+    <link rel="icon" href="#" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;1,100&family=Poppins:wght@500&family=Water+Brush&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header-container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="img/animation studio.png" alt="amc logo" width="200px"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>     
+                </ul>
+            </div>
+        </div>       
+    </div>
+    <div class="vid-background-other">
+        <video autoplay loop muted plays-inline class="back-vid-other">
+            <source src="vid/Cute Mon Walk.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="title-card-other">
+        <h1>Services</h1>
+        <p>Whether you’re looking for a partner to handle your animated<br>
+            video project from start to finish or you just need some additional<br>
+            help for one step of the process, our expert team has your back.</p>
+    </div>
+    <div class="main-services-container">
+        <div class="main-services">
+            <h1>SERVICES</h1>
+            <hr>
+            <div class="serv-icons-container">
+                <div class="serv-icons">
+                    <img src="" alt="">
+                    <p>PROJECTION MAPPING</p>
+                </div>
+                <div class="serv-icons">
+                    <img src="" alt="">
+                    <p>3D ANIMATION</p>
+                </div>
+                <div class="serv-icons">
+                    <img src="" alt="">
+                    <p>LOGO ANIMATION</p>
+                </div>
+                <div class="serv-icons">
+                    <img src="" alt="">
+                    <p>PRODUCT VISUALIZATION</p>
+                </div>
+                <div class="serv-icons">
+                    <img src="" alt="">
+                    <p>NFT COLLECTIONS</p>
+                </div>
+                <div class="serv-icons">
+                    <img src="" alt="">
+                    <p>GAME / NFT / FILM TRAILER</p>
+                </div>
+                <div class="serv-icons">
+                    <img src="" alt="">
+                    <p>TITLE SEQUENCE</p>
+                </div>
+
+            </div>
+            
+            <div class="ready">
+                <h1>Ready to start planning your project?</h1>
+                <p>Take the first step towards delivering your project by letting us know what you want to achieve.</p>
+                <button class="get-started">Let's discuss your project needs</button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-links">
+                <div class="footer-link-1">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>     
+                    </ul>
+                </div>
+                <div class="footer-link-2">
+                    <h3>Other Service</h3>
+                    <ul>
+                        <li><a href="">AMC Photo Studio</a></li>                     
+                    </ul>
+                </div>
+                <div class="footer-link-3">
+                        <h3>Get in Touch</h3>
+                    <ul>
+                        <li>M: +63 966 546 5311</li>
+                        <li>E: amc.animationstudio@gmail.com</li>
+                        <br>
+                        <li>AMC Animation Studio<br>
+                            Golden City, Brgy. Salawag<br>
+                            Dasmariñas City, Cavite,<br>
+                            4114, Philippines</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="socmed-reserved">
+                <div class="social-media-container">
+                </div>
+                <div class="all-rights-reserved">
+                    <p>© 2022 AMC ANIMATION STUDIO. ALL RIGHT RESERVED.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <style>
+        .main-services-container {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 90vh;
+        }
+
+        .main-services-container .main-services {
+            display: grid;
+            row-gap: 1rem;
+        }
+
+        .main-services h1 {
+            color: #2F1557;
+            font-weight: 900;
+        }
+
+        .main-services hr {
+            margin: 0px 45%;
+            color: #2F1557;
+        }
+
+        .serv-icons-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 50vw;
+            height: 50vh;
+            gap: 2rem;
+        }
+
+        .serv-icons {
+            flex: 0 0 250%; /* Adjust as needed */
+            display: grid;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            max-width: 200px;
+            max-height: 200px;
+            min-width: 200px;
+            min-height: 200px;
+            font-size: 10px;
+            color: white;
+            background-color: #2F1557;
+            transition: .5s;
+        }
+
+        .serv-icons:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            border: none;
+            cursor: pointer;
+            transition: .5s;
+        }
+
+        .main-services .ready h1 {
+            color: #373538;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+
+        .ready .get-started {
+            background-color: #2F1557;
+            color: aliceblue;
+            width: 300px;
+            height: 50px;
+            border: none;
+            border-radius: 1rem;
+            margin-top: .5rem;
+            transition: all 0.5s;          
+        }
+
+        .ready .get-started:hover{
+            cursor: pointer;
+            background-color: #ffffff;
+            color: #2F1557;
+            letter-spacing: 1px;
+            box-shadow: 0 0 10px 4px white;
+            border: 1px solid #2F1557;
+            transition: all 0.5s
+        }
+    </style>
+    <script src="scripts.js"></script>
+</body>
+</html>
