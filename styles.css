@@ -72,11 +72,10 @@ body {
 
 .back-vid {
     object-fit: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     position: relative;
     z-index: -10;
-    top: 0px;
+    top: -90px;
     
 }
 
@@ -322,10 +321,11 @@ body {
 
 .main-fourth h1 {
     color: #f4cadb;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .main-fourth .elepig-vid {
+    border-radius: 1.5rem;
     width: 40vw;
 
 }

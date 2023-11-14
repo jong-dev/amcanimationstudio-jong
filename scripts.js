@@ -1,24 +1,27 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const delayedHeader = document.querySelector(".header-container");
+// document.addEventListener("DOMContentLoaded", function () {
+//     const delayedHeader = document.querySelector(".header-container");
 
-    delayedHeader.style.opacity = 0;
-
-
-    setTimeout(function () {
-        delayedHeader.style.opacity = 1;
-    }, 500);
-}); 
-
-document.addEventListener("DOMContentLoaded", function () {
-    const delayedHeader = document.querySelector(".title-card");
-
-    delayedHeader.style.opacity = 0;
+//     delayedHeader.style.opacity = 0;
 
 
-    setTimeout(function () {
-        delayedHeader.style.opacity = 1;
-    }, 2000);
-});
+//     setTimeout(function () {
+//         delayedHeader.style.opacity = 1;
+//     }, 500);
+// }); 
+
+// document.addEventListener("DOMContentLoaded", function () {
+//     const delayedHeader = document.querySelector(".title-card");
+
+//     delayedHeader.style.opacity = 0;
+
+
+//     setTimeout(function () {
+//         delayedHeader.style.opacity = 1;
+//     }, 2000);
+// });
+
+
+
 
 document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("scroll", function() {
