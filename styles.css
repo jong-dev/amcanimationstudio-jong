@@ -67,7 +67,7 @@ body {
     height: 100vh;
     overflow: hidden;
     z-index: -10;
-    
+    transition: 1s;  
 }
 
 .back-vid {
@@ -76,7 +76,7 @@ body {
     position: relative;
     z-index: -10;
     top: -90px;
-    
+    transition: 1s;  
 }
 
 /*Title Card*/
