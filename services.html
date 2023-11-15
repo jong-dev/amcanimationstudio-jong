@@ -49,31 +49,31 @@
             <hr>
             <div class="serv-icons-container">
                 <div class="serv-icons">
-                    <img src="" alt="">
+                    <img src="img/Video Mapping.png" alt="" width="70px">
                     <p>PROJECTION MAPPING</p>
                 </div>
                 <div class="serv-icons">
-                    <img src="" alt="">
+                    <img src="img/Explainer Videos.png" alt="" width="70px">
                     <p>3D ANIMATION</p>
                 </div>
                 <div class="serv-icons">
-                    <img src="" alt="">
+                    <img src="img/Logo Animation.png" alt="" width="70px">
                     <p>LOGO ANIMATION</p>
                 </div>
                 <div class="serv-icons">
-                    <img src="" alt="">
+                    <img src="img/Motion Graphics.png" alt="" width="70px">
                     <p>PRODUCT VISUALIZATION</p>
                 </div>
                 <div class="serv-icons">
-                    <img src="" alt="">
+                    <img src="img/Motion Graphics.png" alt="" width="70px">
                     <p>NFT COLLECTIONS</p>
                 </div>
                 <div class="serv-icons">
-                    <img src="" alt="">
+                    <img src="img/Logo Animation.png" alt="" width="70px">
                     <p>GAME / NFT / FILM TRAILER</p>
                 </div>
                 <div class="serv-icons">
-                    <img src="" alt="">
+                    <img src="img/Explainer Videos.png" alt="" width="70px">
                     <p>TITLE SEQUENCE</p>
                 </div>
 
@@ -136,12 +136,12 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            height: 90vh;
+            height: 100vh;
         }
 
         .main-services-container .main-services {
             display: grid;
-            row-gap: 1rem;
+            row-gap: 2rem;
         }
 
         .main-services h1 {
@@ -161,14 +161,16 @@
             width: 50vw;
             height: 50vh;
             gap: 2rem;
+            padding-bottom: 1rem;
         }
 
         .serv-icons {
             flex: 0 0 250%; /* Adjust as needed */
-            display: grid;
+            display: flex;
+            flex-direction: column;
             text-align: center;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-end;
             border: 1px solid #ccc;
             max-width: 200px;
             max-height: 200px;
@@ -177,6 +179,7 @@
             font-size: 10px;
             color: white;
             background-color: #2F1557;
+            gap: 2rem;
             transition: .5s;
         }
 
@@ -188,12 +191,20 @@
             transition: .5s;
         }
 
+        .serv-icons p {
+            padding-bottom: 3rem;
+            
+        }
+
         .main-services .ready h1 {
             color: #373538;
             font-size: 30px;
             font-weight: 900;
         }
 
+        .main-services .ready p {
+            padding-bottom: 2rem;
+        }
 
         .ready .get-started {
             background-color: #2F1557;
